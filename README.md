@@ -67,7 +67,7 @@ The script will behave similar to cal standard program available on unix or unix
 
 The default gregorian reformation year for cal is 1752. During this year the adjusted days are shown as missing. [cal.1.html](http://man7.org/linux/man-pages/man1/cal.1.html)
 
-![Image of cal](images/cal.png)
+![Image of cal](images/cal.png)<br/>
 <strong>Cal year mode view</strong>
 
 Run cmd on unix/linux terminal to get above output
@@ -75,7 +75,7 @@ Run cmd on unix/linux terminal to get above output
 cal 1752
 ```
 
-![Image of cal](images/cal-j.png)
+![Image of cal](images/cal-j.png)<br/>
 <strong>Display Julian days (days one-based, numbered from January 1)</strong>
 
 
@@ -98,11 +98,11 @@ gcal --gregorian-reform=1929,02,01,13 1929
 
 The screenshot below shows the calendar for the 1929 with the gregorian reform year as same.
 
-![Image of cal](images/gcal.png)
+![Image of cal](images/gcal.png)<br/>
 <strong>gcal year view</strong>
 
 
-![Image of cal](images/gcal-j.png)
+![Image of cal](images/gcal-j.png)<br/>
 <strong>Display Julian days (days one-based, numbered from January 1)</strong>
 
 ### Documentation
