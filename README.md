@@ -62,12 +62,13 @@ node index.js -y 2017 -m cal -o 244
 
 ### Modes
 
-#### 1. Cal
+#### 1. cal
 The script will behave similar to cal standard program available on unix or unix-like operating systems when it comes to handling gregorian reformation year. [Cal_(Unix)](https://en.wikipedia.org/wiki/Cal_(Unix))
 
 The default gregorian reformation year for cal is 1752. During this year the adjusted days are shown as missing. [cal.1.html](http://man7.org/linux/man-pages/man1/cal.1.html)
 
-![Image of cal](images/cal.png) <strong>Cal year mode view</strong>
+![Image of cal](images/cal.png)
+<strong><pre>Cal year mode view</pre></strong>
 
 Run cmd on unix/linux terminal to get above output
 ```
@@ -75,7 +76,7 @@ cal 1752
 ```
 
 ![Image of cal](images/cal-j.png)
-<strong>Display Julian days (days one-based, numbered from January 1)</strong>
+<strong><pre>Display Julian days (days one-based, numbered from January 1)</pre></strong>
 
 
 Run cmd on unix/linux terminal to get above output
@@ -83,4 +84,46 @@ Run cmd on unix/linux terminal to get above output
 cal -j 1752 or ncal -j 1752
 ```
 
-<i>Notice the no of days in a year in the output.</i>
+<i>Notice the number of days in a year in the output.</i>
+
+#### 2. gcal
+
+The script will behave similar to gnu cal program available when it comes to handling gregorian reformation year. [gcal](https://www.gnu.org/software/gcal/)
+
+The default gregorian reformation year for cal is 1752. This can be overriden using cli options.
+
+```
+gcal --gregorian-reform=1929,02,01,13 1929
+```
+
+The screenshot below shows the calendar for the 1929 with the gregorian reform year as same.
+
+![Image of cal](images/gcal.png)
+<strong><pre>gcal year view</pre></strong>
+
+
+![Image of cal](images/gcal-j.png)
+<strong><pre>Display Julian days (days one-based, numbered from January 1)</pre></strong>
+
+### Documentation
+
+[Go to documentation](https://glints-task1-docs.netlify.com/symbols/_global_.html)
+
+### Time Required
+
+```
+Reading/learning about calender which includes topics - 
+Julian calendar
+Gregorian calendar
+Greogorian reformation
+Ordinal Date
+ISO 8061 Standard
+Manual of cal
+Manual of gnu cal
+----------------------------------------------------------
+1hr 30min
+
+Implementation 
+----------------------------------------------------------
+45 Min
+```
